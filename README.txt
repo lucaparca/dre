@@ -3,9 +3,7 @@
 Rscript install_packages.R
 
 #This package takes as input a matrix containing normalized gene expression and IC50 values for 
-#265 drugs for each cell line in the panel. You need to download the original dataset (preprocessed)
-#from the the following dropbox link: https://www.dropbox.com/s/dqqa1t9nl622x4e/iorio_et_al_preprocessed.txt.gz?dl=0
-#You need to decompress the file iorio_et_al_preprocessed.txt.gz
+#265 drugs for each cell line in the panel. You need to decompress the file iorio_et_al_preprocessed.txt.gz
 
 #Get the predictions using the following command
 R -f dre.r iorio_et_al_preprocessed.txt
